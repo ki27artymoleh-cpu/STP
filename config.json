@@ -1,0 +1,5 @@
+{
+  "storage": "json",
+  "json_path": "data/profiles.json",
+  "log_level": "INFO"
+}

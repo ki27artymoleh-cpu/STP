@@ -53,3 +53,5 @@ class FindMatchesUseCase:
         matches = [m for m in matches if m.score >= min_score]
         matches.sort(key=lambda m: m.score, reverse=True)
         return matches[:limit]
+
+# Application layer use cases

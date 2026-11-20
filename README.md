@@ -53,3 +53,5 @@ python -m src.presentation.cli match --id <ID_анкети>
 
 `main` — стабільний код, `develop` — інтеграційна гілка, `feature/*` — гілки під задачі.
 Коміти за Conventional Commits.
+
+

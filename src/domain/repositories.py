@@ -18,3 +18,5 @@ class ProfileRepository(ABC):
 
     @abstractmethod
     def list_all(self) -> List[Profile]: ...
+
+# Repository interfaces for domain layer

@@ -24,3 +24,5 @@ def compatibility_score(a: Profile, b: Profile) -> int:
     pets = 10 if a.has_pets == b.has_pets else 0
 
     return round(budget + sleep + cleanliness + smoking + pets)
+
+# Compatibility scoring business rules
